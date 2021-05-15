@@ -125,15 +125,6 @@ ul {
 
 }
 
-.home .home-btn {
-    margin-top: 40px;
-}
-
-.home-img img {
-    max-width: 250px;
-    width: 100%;
-}
-
 .home-text h1 {
     font-size: 45px;
     color: #ffffff;
@@ -148,4 +139,40 @@ ul {
     margin: 0;
     font-weight: 300;
 
+}
+
+.home .home-btn {
+    margin-top: 40px;
+}
+
+.home-img img {
+    max-width: 250px;
+    width: 100%;
+}
+
+.home-img {
+    position: relative;
+}
+
+.home-img .circle {
+    position: absolute;
+    z-index: 1;
+    height: 400px;
+    width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-img .circle::before {
+    content: '';
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    top: 30px;
+    left: 30px;
 }
