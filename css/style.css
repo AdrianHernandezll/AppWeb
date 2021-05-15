@@ -65,6 +65,28 @@ ul {
     background-color: var(--main-color);
 }
 
+@keyframes spin_01 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounceTop_01 {
+
+    0%,
+    100% {
+        transform: translateY(-30px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+}
+
 /* Navbar */
 
 .navbar {
@@ -73,7 +95,7 @@ ul {
 }
 
 .navbar>.container {
-    padding: 15px 0;
+    padding: 0 15px;
 }
 
 .navbar .navbar-brand {
@@ -148,6 +170,9 @@ ul {
 .home-img img {
     max-width: 250px;
     width: 100%;
+    box-shadow: var(--shadow-black-100);
+    border-radius: 32px;
+    animation: bounceTop_01 3s ease infinite;
 }
 
 .home-img {
@@ -175,4 +200,6 @@ ul {
     border-radius: 50%;
     top: 30px;
     left: 30px;
+    transform-origin: 170px 170px;
+    animation: spin_01 10s linear infinite;
 }
