@@ -600,4 +600,27 @@ ul {
     padding: 30px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: var(--shadow-black-100);
+}
+
+.app-dowload-item i {
+    font-size: 30px;
+    display: inline-block;
+    color: var(--main-color);
+}
+
+.app-dowload-item h3 {
+    font-size: 22px;
+    color: var(--black-900);
+    margin: 20px 0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.app-dowload-item p {
+    font-size: 16px;
+    color: var(--black-400);
+    font-weight: 300;
+    margin: 0 0 30px;
+    line-height: 26px;
 }
