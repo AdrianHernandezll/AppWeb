@@ -555,3 +555,9 @@ ul {
 .fun-fact-item.style-4 {
     background-color: var(--main-color);
 }
+
+/*------------------Screenshots section --------*/
+.screenshot-item img {
+    width: 100%;
+    max-width: 250px;
+}
