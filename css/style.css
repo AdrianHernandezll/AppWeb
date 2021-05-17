@@ -647,3 +647,51 @@ ul {
     margin: 0 0 30px;
     line-height: 26px;
 }
+
+/*------------------ Work Section ---------------------------*/
+
+.how-it-works-item {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.how-it-works-item.line-right::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 50%;
+    top: 60px;
+    background-color: var(--main-color);
+    z-index: -1;
+}
+
+.how-it-works-item .step {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.how-it-works-item h3 {
+    font-size: 22px;
+    color: var(--black-900);
+    margin: 22px 0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.how-it-works-item p {
+    font-size: 16px;
+    color: var(--black-400);
+    font-weight: 300;
+    margin: 0;
+    line-height: 26px;
+}
