@@ -44,7 +44,7 @@ $(document).ready(function () {
     });
 
 
-    /**-------------------Features Carousel------------------------- */
+    /**-------------------Screenshots Carousel------------------------- */
     $('.screenshots-carousel').owlCarousel({
         loop: true,
         margin: 10,
@@ -61,6 +61,30 @@ $(document).ready(function () {
             },
             1000: {
                 items: 4,
+
+            }
+        }
+    });
+
+
+
+    /**-------------------Testimonials Carousel------------------------- */
+    $('.testimonials-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+
+            },
+            600: {
+                items: 2,
+
+            },
+            1000: {
+                items: 3,
 
             }
         }

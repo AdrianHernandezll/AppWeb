@@ -695,3 +695,9 @@ ul {
     margin: 0;
     line-height: 26px;
 }
+
+/* -------------------Testimonial--------------------- */
+
+.testimonials {
+    background-color: var(--black-100);
+}
