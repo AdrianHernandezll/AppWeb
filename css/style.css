@@ -770,3 +770,82 @@ ul {
     font-size: 16px;
     color: var(--color-2);
 }
+
+
+/* ---------------Seccion pricing---------- */
+
+.pricing-plan {
+    box-shadow: var(--shadow-black-100);
+    border-radius: 10px;
+}
+
+.pricing-plan .pricing-header {
+    padding: 20px 30px;
+}
+
+.pricing-plan .pricing-header h3 {
+    text-align: center;
+    font-size: 30px;
+    color: var(--black-900);
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0;
+    border-bottom: 1px solid var(--black-alpha-100);
+}
+
+.pricing-plan .pricing-price {
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.7;
+}
+
+.pricing-plan .pricing-price .currency {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black-400);
+    margin-right: 5px;
+    align-self: flex-start;
+}
+
+.pricing-plan .pricing-price .price {
+    font-size: 80px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.pricing-plan .pricing-price .period {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--black-400);
+    margin-right: 5px;
+    align-self: flex-end;
+    text-transform: uppercase;
+}
+
+.pricing-plan .pricing-body {
+    padding: 0 30px;
+}
+
+.pricing-plan .pricing-body ul li {
+    font-size: 16px;
+    color: var(--black-400);
+    font-weight: 300;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--black-alpha-100);
+    line-height: 26px;
+}
+
+.pricing-plan .pricing-body ul li:last-child {
+    border-bottom: none;
+}
+
+.pricing-plan .pricing-body i {
+    color: var(--main-color);
+    margin-right: 5px;
+}
+
+.pricing-plan .pricing-footer {
+    padding: 20px 30px 30px;
+    text-align: center;
+}
