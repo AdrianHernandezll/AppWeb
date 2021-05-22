@@ -32,22 +32,22 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link active" data-scroll-nave="1" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" data-scroll-nave="2" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Screenshot</a>
+            <a class="nav-link" data-scroll-nave="3" href="#">Screenshot</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
+            <a class="nav-link" data-scroll-nave="4" href="#">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" data-scroll-nave="5" href="#">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" data-scroll-nave="6" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -55,7 +55,7 @@
   </nav>
   <!-- Navbar fin -->
   <!-- Home Section inicio -->
-  <div class="home">
+  <section class="home d-flex aling-items-center" data-scroll-index="0">
     <div class="effect-wrap">
       <i class="fas fa-plus effect effect-1"></i>
       <i class="fas fa-plus effect effect-2"></i>
@@ -70,7 +70,8 @@
               Ratione nesciunt saepe tenetur.</p>
             <div class="home-btn">
               <a href="#" class="btn btn-1">dowload app</a>
-              <button type="button" class="btn btn-1 video-play-btn"><i class="fas fa-play"></i></button>
+              <button type="button" data-scroll-goto="3" class="btn btn-1 video-play-btn"><i
+                  class="fas fa-play"></i></button>
             </div>
           </div>
         </div>
@@ -78,16 +79,15 @@
           <div class="home-img">
             <div class="circle"></div>
             <img src="img/app-screenshots/1.png" alt="imagen home">
-
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- Home Section fin -->
 
   <!-- Features Section Inicio -->
-  <section class="features section-padding">
+  <section class="features section-padding" data-scroll-index="1">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8 ">
@@ -175,7 +175,7 @@
   </section>
   <!-- Facts Section Fin -->
   <!-- Sr¡creenshot Section Inicio -->
-  <section class="app-screenshots section-padding">
+  <section class="app-screenshots section-padding" data-scroll-index="2">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -202,7 +202,7 @@
   <!-- Sr¡creenshot Section Fin -->
   <!-- Seccion Dowload Inicio -->
 
-  <section class="app-dowload section-padding">
+  <section class="app-dowload section-padding" data-scroll-index="3">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -287,7 +287,7 @@
 
   <!-- Work Section Fin -->
   <!-- Seccion Testimonios Inicio -->
-  <section class="testimonials section-padding">
+  <section class="testimonials section-padding" data-scroll-index="4">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -368,7 +368,7 @@
   <!-- Seccion Testimonios Fin -->
   <!-- Pricing Section inicio -->
 
-  <section class="pricing section-padding">
+  <section class="pricing section-padding" data-scroll-index="5">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -595,7 +595,7 @@
   <!-- Faq Section Fin -->
 
   <!-- Contact Section Inicio -->
-  <div class="contact ">
+  <div class="contact" data-scroll-index="6">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
