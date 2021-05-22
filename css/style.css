@@ -949,3 +949,11 @@ ul {
     line-height: 26px;
     margin: 0;
 }
+
+/*---------------------------
+-----Contact Section---------
+----------------------------- */
+
+.contact {
+    background-color: var(--black-100);
+}
