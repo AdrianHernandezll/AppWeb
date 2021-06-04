@@ -1139,6 +1139,10 @@ ul {
         box-shadow: var(--shadow-black-100);
         border-radius: 10px;
     }
+
+    .footer-col {
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width:767px) {
@@ -1153,6 +1157,11 @@ ul {
     .contact-form {
         margin-top: 20px;
     }
+
+    .section-title h2 {
+        font-size: 35px;
+    }
+
 }
 
 @media(max-width:775px) {
@@ -1163,6 +1172,10 @@ ul {
     .home-text p {
         font-size: 16px;
     }
+
+    .fun-facts .section-title h2 {
+        text-align: center;
+    }
 }
 
 @media(max-width:575px) {
@@ -1172,5 +1185,9 @@ ul {
 
     .home-text p {
         font-size: 16px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
     }
 }
